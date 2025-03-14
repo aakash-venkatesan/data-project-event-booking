@@ -1,0 +1,22 @@
+{
+	"name": "SqlServerLocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "This linked service is used to connect azure with local DB",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "JM-DKT-011",
+			"database": "EventBookingDB",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1NjRkZDBjNi1hNTM4LTQ5ODgtYmEyMy0xYmNjMzgxMGE4YjgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeForLocalToAzure",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

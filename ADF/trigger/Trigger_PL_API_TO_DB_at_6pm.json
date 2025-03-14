@@ -1,0 +1,18 @@
+{
+	"name": "Trigger_PL_API_TO_DB_at_6pm",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-03-06T18:00:00",
+				"endTime": "2025-03-08T07:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

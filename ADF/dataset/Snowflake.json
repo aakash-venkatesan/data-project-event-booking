@@ -1,0 +1,25 @@
+{
+	"name": "Snowflake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"snowflake_tables": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "RAW",
+			"table": {
+				"value": "@dataset().snowflake_tables",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

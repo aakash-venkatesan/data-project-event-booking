@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "userschema",
+			"table": "users_filtered_data"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

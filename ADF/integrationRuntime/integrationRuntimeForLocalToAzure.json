@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeForLocalToAzure",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "It is used to connect with on-premise SQL server"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "ADF-SQL-SERVER-1",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f26368bc-a819-42a4-9d24-93b748e86a26",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "trigger_to_extract_data_from_db_to_snowflake",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_DATA_SQL_INTO_SNOWFLAKE",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2025-03-17T18:00:00",
+				"endTime": "2025-03-18T13:07:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
