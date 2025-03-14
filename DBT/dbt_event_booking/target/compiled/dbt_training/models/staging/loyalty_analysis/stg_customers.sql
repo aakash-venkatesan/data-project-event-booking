@@ -1,0 +1,11 @@
+SELECT 
+    customer_id,
+    first_name,
+    last_name,
+    gender,
+    email,
+    date_of_birth,
+    registration_date,
+    membership_level
+FROM
+    RETAIL_DB.STAGING.CUSTOMERS

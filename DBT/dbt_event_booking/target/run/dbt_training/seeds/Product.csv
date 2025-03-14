@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table dbt.DBT_SCHEMA_seed.Product ("Product ID" integer,"Product" text,"Units Sold" integer,"Manufacturing Price" integer,"Sale Price" integer,"Gross Sales" integer,"Sales" integer,"Profit" integer)
+  ;
+    -- dbt seed --
+    
+            insert into dbt.DBT_SCHEMA_seed.Product ("Product ID", "Product", "Units Sold", "Manufacturing Price", "Sale Price", "Gross Sales", "Sales", "Profit") values
+            (%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s),(%s,%s,%s,%s,%s,%s,%s,%s)
+        
+
+;
+  

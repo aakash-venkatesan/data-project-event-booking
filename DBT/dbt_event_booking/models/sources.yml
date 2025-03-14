@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: event_booking
+    database: EVENT_BOOKING
+    schema: RAW
+    tables:
+      - name: CUSTOMERS
+        description: Contains information about the customers.
+      - name: PRODUCTS
+        description: Contains information about the products.
+      - name: TRANSACTIONS
+        description: Contains information about the transactions.
+      - name: COUNTRIES
+        description: Contains information about the countries.

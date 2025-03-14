@@ -1,0 +1,10 @@
+SELECT  
+    order_id,
+    customer_id,
+    store_id,
+    discount,
+    tax_amount,
+    total_amount,
+    order_date
+FROM
+    RETAIL_DB.STAGING.ORDERS

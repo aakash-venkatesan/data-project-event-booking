@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table dbt.DBT_SCHEMA_seed.exchange_rate_1 (currency text,month text,to_currency text,exchange_rate float8)
+  ;
+    -- dbt seed --
+    
+            insert into dbt.DBT_SCHEMA_seed.exchange_rate_1 (currency, month, to_currency, exchange_rate) values
+            (%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s),(%s,%s,%s,%s)
+        
+
+;
+  
